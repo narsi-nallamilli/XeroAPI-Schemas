@@ -27,7 +27,7 @@
       <xs:element name="IsSubscriber" minOccurs="0" maxOccurs="1" type="trueOrFalse" />
       <xs:element name="OrganisationRole" minOccurs="0" maxOccurs="1" type="organisationRole" />
     </xs:all>
-    <xs:attribute name="status" type="entityValidationStatus" use="optional" />
+    <xs:attribute name="validationStatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
   
 </xs:schema>

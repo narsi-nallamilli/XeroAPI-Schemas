@@ -32,7 +32,7 @@
       <xs:element name="ItemID" type="uniqueIdentifier" minOccurs="0" maxOccurs="1" />
       <xs:element name="UpdatedDateUTC" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
     </xs:all>
-    <xs:attribute name="status" type="entityValidationStatus" use="optional" />
+    <xs:attribute name="validationStatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
 
   <xs:complexType name="ItemPriceDetails">
@@ -44,7 +44,7 @@
       <xs:element name="COGSAccountCode" type="accountCode" minOccurs="0" maxOccurs="1" />
       <xs:element name="TaxType" type="taxType" minOccurs="0" maxOccurs="1" />
     </xs:all>
-    <xs:attribute name="status" type="entityValidationStatus" use="optional" />
+    <xs:attribute name="validationStatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
   
 </xs:schema>

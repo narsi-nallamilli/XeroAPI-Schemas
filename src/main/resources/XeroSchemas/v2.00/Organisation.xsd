@@ -51,9 +51,9 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Addresses" type="ArrayOfAddress" />
       <xs:element minOccurs="0" maxOccurs="1" name="Phones" type="ArrayOfPhone" />
       <xs:element minOccurs="0" maxOccurs="1" name="ExternalLinks" type="externalLinks" />
-      <xs:element minOccurs="0" maxOccurs="1" name="PaymentTerms" type="paymentTerms" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentTerms" type="PaymentTerms" />
     </xs:all>
-    <xs:attribute name="status" type="entityValidationStatus" use="optional" />
+    <xs:attribute name="validationStatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
 
   <xs:simpleType name="organisationName">
@@ -70,7 +70,14 @@
     </xs:sequence>
   </xs:complexType>
 
-  <xs:complexType name="paymentTerms">
+  <xs:complexType name="PaymentTerms">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Bills"  type="paymentTerm" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Sales" type="paymentTerm" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="paymentTerm">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="1" name="Day" type="dayNumber" />
       <xs:element minOccurs="0" maxOccurs="1" name="Type" type="paymentTermType" />

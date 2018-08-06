@@ -18,7 +18,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="CreditNote" type="CreditNote" />
       <xs:element minOccurs="0" maxOccurs="1" name="UpdatedDateUTC" type="xs:dateTime" />
     </xs:all>
-    <xs:attribute name="status" type="entityValidationStatus" use="optional" />
+    <xs:attribute name="validationStatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
 
   <xs:element name="Allocations" nillable="true" type="ArrayOfAllocation" />

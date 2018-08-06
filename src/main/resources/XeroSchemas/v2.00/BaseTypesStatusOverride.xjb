@@ -33,7 +33,7 @@
     
     <jxb:bindings schemaLocation="Account.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Account']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -41,7 +41,7 @@
 
      <jxb:bindings schemaLocation="TaxRate.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='TaxRate']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -49,12 +49,12 @@
 
     <jxb:bindings schemaLocation="Tracking.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='TrackingCategory']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
         <jxb:bindings node="//xsd:complexType[@name='TrackingCategoryOption']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -62,7 +62,7 @@
 
     <jxb:bindings schemaLocation="ContactGroup.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='ContactGroup']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -70,7 +70,7 @@
 
     <jxb:bindings schemaLocation="Employee.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Employee']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -78,7 +78,7 @@
 
     <jxb:bindings schemaLocation="ExpenseClaim.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='ExpenseClaim']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -86,7 +86,7 @@
 
     <jxb:bindings schemaLocation="Receipt.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Receipt']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -94,7 +94,7 @@
 
     <jxb:bindings schemaLocation="ManualJournal.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='ManualJournal']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -102,7 +102,7 @@
 
     <jxb:bindings schemaLocation="BankTransaction.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='BankTransaction']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -110,7 +110,7 @@
 
     <jxb:bindings schemaLocation="Invoice.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Invoice']">  
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -118,7 +118,7 @@
 
     <jxb:bindings schemaLocation="Payment.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Payment']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -126,7 +126,7 @@
 
      <jxb:bindings schemaLocation="CreditNote.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='CreditNote']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -134,7 +134,7 @@
 
     <jxb:bindings schemaLocation="RepeatingInvoice.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='RepeatingInvoice']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -142,7 +142,7 @@
 
     <jxb:bindings schemaLocation="LinkedTransaction.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='LinkedTransaction']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -150,7 +150,7 @@
 
     <jxb:bindings schemaLocation="Overpayment.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Overpayment']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -158,7 +158,7 @@
 
     <jxb:bindings schemaLocation="Prepayment.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='Prepayment']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>
@@ -166,7 +166,7 @@
 
     <jxb:bindings schemaLocation="PurchaseOrder.xsd" node="/xsd:schema">
         <jxb:bindings node="//xsd:complexType[@name='PurchaseOrder']">
-            <jxb:bindings node="./xsd:attribute[@name='status']">
+            <jxb:bindings node="./xsd:attribute[@name='validationStatus']">
                 <jxb:property name="validationStatus"/>
             </jxb:bindings>
         </jxb:bindings>

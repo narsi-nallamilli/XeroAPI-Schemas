@@ -9,6 +9,7 @@
   <xs:include schemaLocation="Phone.xsd" />
   <xs:include schemaLocation="CurrencyCode.xsd" />
   <xs:include schemaLocation="ContactGroup.xsd" />
+  <xs:include schemaLocation="Organisation.xsd" />
 
   <xs:element name="Contacts" nillable="true" type="ArrayOfContact" />
 
@@ -54,6 +55,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Discount" type="itemPrice" />
       <xs:element minOccurs="0" maxOccurs="1" name="Balances" type="Balances" />
       <xs:element minOccurs="0" maxOccurs="1" name="HasAttachments" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentTerms" type="PaymentTerms" />
     </xs:all>
     <xs:attribute name="validationstatus" type="entityValidationStatus" use="optional" />
   </xs:complexType>
